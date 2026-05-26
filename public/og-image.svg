@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#F3EADB"/>
+
+  <!-- Saffron marker -->
+  <rect x="80" y="200" width="2" height="60" fill="#C2742E"/>
+
+  <!-- Headline -->
+  <text x="80" y="350"
+        font-family="Fraunces, Georgia, serif"
+        font-size="120"
+        font-weight="400"
+        fill="#1A1B1F"
+        letter-spacing="-3">Intelligence,</text>
+  <text x="80" y="470"
+        font-family="Fraunces, Georgia, serif"
+        font-size="120"
+        font-weight="400"
+        fill="#1A1B1F"
+        letter-spacing="-3">resolved.</text>
+
+  <!-- Subtext -->
+  <text x="80" y="540"
+        font-family="Manrope, sans-serif"
+        font-size="20"
+        fill="#4A4B52">solvan.ai &middot; AI staffing for Indian businesses</text>
+
+  <!-- Crystal -->
+  <g transform="translate(960, 315)">
+    <polygon points="0,-150 130,-50 100,130 -100,130 -130,-50" fill="#1A1B1F"/>
+    <polygon points="0,-150 100,130 -100,130" fill="#C2742E" opacity="0.18"/>
+    <polygon points="0,-150 130,-50 100,130" fill="#1A1B1F" opacity="0.6"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="80" y="80"
+        font-family="Fraunces, Georgia, serif"
+        font-size="28"
+        font-weight="500"
+        fill="#1A1B1F">solvan</text>
+</svg>

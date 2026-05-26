@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solvan AI — Intelligence, resolved.</title>
+  <meta name="description" content="An AI staffing agency for Indian businesses. We deploy trained AI workers into your operations — not slide decks." />
+  <meta name="theme-color" content="#F3EADB" />
+
+  <meta property="og:title" content="Solvan AI — Intelligence, resolved." />
+  <meta property="og:description" content="An AI staffing agency for Indian businesses. We deploy trained AI workers into your operations — not slide decks." />
+  <meta property="og:image" content="/public/og-image.svg" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    rel="preload"
+    as="style"
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Manrope:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Manrope:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <a href="#hero" class="nav__brand">solvan</a>
+    <div class="nav__links">
+      <a href="#work">Work</a>
+      <a href="#approach">Approach</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero__inner">
+        <div class="hero__left">
+          <div class="hero__marker" aria-hidden="true"></div>
+          <h1 class="hero__headline">
+            <span class="line"><span class="word">Intelligence,</span></span>
+            <span class="line"><span class="word">resolved.</span></span>
+          </h1>
+          <p class="hero__sub">
+            An AI staffing agency for Indian businesses. We deploy trained AI workers into your operations — not slide decks.
+          </p>
+          <div class="hero__ctas">
+            <a class="btn btn--primary" href="#contact">Book a dark data audit</a>
+            <a class="btn btn--secondary" href="#work">See the work</a>
+          </div>
+          <p class="hero__locale">Bengaluru, India · Est. 2026</p>
+        </div>
+
+        <div class="hero__right">
+          <canvas id="crystal" role="img" aria-label="Rotating obsidian crystal — Solvan AI mark"></canvas>
+          <noscript>
+            <svg class="hero__fallback" viewBox="0 0 200 200" width="320" height="320" aria-label="Solvan AI mark">
+              <polygon points="100,20 180,80 150,170 50,170 20,80" fill="#1A1B1F" />
+              <polygon points="100,20 150,170 50,170" fill="#C2742E" opacity="0.18" />
+            </svg>
+          </noscript>
+        </div>
+      </div>
+
+      <div class="hero__cue" aria-hidden="true">
+        <span>Scroll</span>
+        <span class="hero__cue-line"></span>
+      </div>
+    </section>
+
+    <section class="practice" id="work">
+      <div class="practice__inner">
+        <div class="practice__left reveal">
+          <p class="eyebrow">Practice</p>
+          <h2 class="practice__headline">Four problems.<br />One firm.</h2>
+        </div>
+        <div class="practice__right">
+          <div class="service reveal">
+            <p class="service__num">01</p>
+            <h3 class="service__name">AI Staffing</h3>
+            <p class="service__desc">Trained agents deployed into your operations — billed monthly, not per seat.</p>
+          </div>
+          <div class="service reveal">
+            <p class="service__num">02</p>
+            <h3 class="service__name">Data &amp; Analytics</h3>
+            <p class="service__desc">Find the leak. Quantify the bleed. Hand back the exact number you were losing.</p>
+          </div>
+          <div class="service reveal">
+            <p class="service__num">03</p>
+            <h3 class="service__name">Automation</h3>
+            <p class="service__desc">Operations that run themselves — orders, reconciliations, follow-ups, escalations.</p>
+          </div>
+          <div class="service reveal">
+            <p class="service__num">04</p>
+            <h3 class="service__name">Strategic Consultancy</h3>
+            <p class="service__desc">Quiet, sharp guidance. Where AI earns its keep — and where it shouldn't be near.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="approach" id="approach">
+      <div class="approach__inner">
+        <p class="eyebrow eyebrow--saffron">Methodology</p>
+        <div class="approach__grid">
+          <div class="step reveal">
+            <p class="step__num">01</p>
+            <h3 class="step__title">The dark data audit</h3>
+            <p class="step__body">We find the leak before we sell the fix. Free, two hours, exact numbers.</p>
+          </div>
+          <div class="step reveal">
+            <p class="step__num">02</p>
+            <h3 class="step__title">Deploy AI workers</h3>
+            <p class="step__body">Trained agents go into your operations at ₹3–12K/month per role.</p>
+          </div>
+          <div class="step reveal">
+            <p class="step__num">03</p>
+            <h3 class="step__title">Recover, document, repeat</h3>
+            <p class="step__body">We charge 15% of documented savings. Zero result, zero recovery fee.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof">
+      <div class="proof__inner">
+        <div class="stat reveal">
+          <p class="stat__num">₹84L</p>
+          <span class="stat__rule" aria-hidden="true"></span>
+          <p class="stat__label">Year 1 revenue target</p>
+        </div>
+        <div class="stat reveal">
+          <p class="stat__num">88</p>
+          <span class="stat__rule" aria-hidden="true"></span>
+          <p class="stat__label">AI employees deployed</p>
+        </div>
+        <div class="stat reveal">
+          <p class="stat__num">18</p>
+          <span class="stat__rule" aria-hidden="true"></span>
+          <p class="stat__label">Clients by Dec 2026</p>
+        </div>
+        <div class="stat reveal">
+          <p class="stat__num">22 days</p>
+          <span class="stat__rule" aria-hidden="true"></span>
+          <p class="stat__label">CAC payback</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="footer__inner">
+        <h2 class="footer__cta reveal">Let&rsquo;s find your<br />bleeding number.</h2>
+        <a class="footer__email reveal" href="mailto:hello@solvan.ai">hello@solvan.ai</a>
+        <div class="footer__strip">
+          <span>&copy; 2026 Solvan AI</span>
+          <span>Bengaluru &middot; India</span>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
