@@ -30,14 +30,23 @@ export function initReveals({ prefersReducedMotion = false } = {}) {
     ease: "power2.out",
   });
 
-  gsap.from([".hero__sub", ".hero__ctas", ".hero__locale", ".hero__cue"], {
-    y: 18,
-    opacity: 0,
-    duration: 0.8,
-    stagger: 0.09,
-    delay: 0.65,
-    ease: "power2.out",
-  });
+  gsap.from(
+    [
+      ".hero__eyebrow",
+      ".hero__sub",
+      ".hero__ctas",
+      ".hero__locale",
+      ".hero__cue",
+    ],
+    {
+      y: 18,
+      opacity: 0,
+      duration: 0.8,
+      stagger: 0.09,
+      delay: 0.65,
+      ease: "power2.out",
+    }
+  );
 
   // Section reveals — anything with .reveal
   document.querySelectorAll(".reveal").forEach((el) => {

@@ -4,11 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Solvan AI — Intelligence, resolved.</title>
-  <meta name="description" content="An AI staffing agency for Indian businesses. We deploy trained AI workers into your operations — not slide decks." />
+  <meta name="description" content="India's first AI staffing agency. We deploy trained AI workers into Indian SMBs at ₹3-12K/month per role — outcome-linked, not slide decks." />
   <meta name="theme-color" content="#F3EADB" />
 
   <meta property="og:title" content="Solvan AI — Intelligence, resolved." />
-  <meta property="og:description" content="An AI staffing agency for Indian businesses. We deploy trained AI workers into your operations — not slide decks." />
+  <meta property="og:description" content="India's first AI staffing agency. We deploy trained AI workers into your operations — not slide decks." />
   <meta property="og:image" content="/public/og-image.svg" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -38,32 +38,42 @@
   </script>
 </head>
 <body>
+  <div class="progress" aria-hidden="true">
+    <div class="progress__bar" id="progress-bar"></div>
+  </div>
+
   <nav class="nav" id="nav">
-    <a href="#hero" class="nav__brand">solvan</a>
+    <a href="#hero" class="nav__brand">
+      <span class="nav__mark" aria-hidden="true"></span>
+      <span>solvan</span>
+    </a>
     <div class="nav__links">
       <a href="#work">Work</a>
+      <a href="#verticals">Verticals</a>
       <a href="#approach">Approach</a>
       <a href="#contact">Contact</a>
     </div>
   </nav>
 
   <main>
+    <!-- ============ HERO ============ -->
     <section class="hero" id="hero">
       <div class="hero__inner">
         <div class="hero__left">
           <div class="hero__marker" aria-hidden="true"></div>
+          <p class="hero__eyebrow">India&rsquo;s first AI staffing agency</p>
           <h1 class="hero__headline">
             <span class="line"><span class="word">Intelligence,</span></span>
             <span class="line"><span class="word">resolved.</span></span>
           </h1>
           <p class="hero__sub">
-            An AI staffing agency for Indian businesses. We deploy trained AI workers into your operations — not slide decks.
+            We don&rsquo;t sell slide decks. We hire trained AI workers into the operations of Indian SMBs &mdash; at &#8377;3&ndash;12K a month per role. <em>Every</em> request, resolved.
           </p>
           <div class="hero__ctas">
-            <a class="btn btn--primary" href="#contact">Book a dark data audit</a>
-            <a class="btn btn--secondary" href="#work">See the work</a>
+            <a class="btn btn--primary" href="#contact">Book the dark data audit</a>
+            <a class="btn btn--secondary" href="#approach">See how it works</a>
           </div>
-          <p class="hero__locale">Bengaluru, India · Est. 2026</p>
+          <p class="hero__locale">Bengaluru, India &middot; Est. 2026</p>
         </div>
 
         <div class="hero__right">
@@ -83,92 +93,232 @@
       </div>
     </section>
 
+    <!-- ============ MARQUEE ============ -->
+    <section class="marquee-section" aria-label="What we solve">
+      <p class="marquee-section__eyebrow">
+        <span class="dot"></span>
+        We solve every request
+      </p>
+      <div class="marquee" aria-hidden="false">
+        <div class="marquee__track">
+          <span class="marquee__item">Fee collection</span>
+          <span class="marquee__item marquee__item--accent">Inventory forecasting</span>
+          <span class="marquee__item">Proposal drafting</span>
+          <span class="marquee__item">WhatsApp follow-ups</span>
+          <span class="marquee__item marquee__item--accent">Appointment scheduling</span>
+          <span class="marquee__item">Compliance reports</span>
+          <span class="marquee__item">Dormant customer recovery</span>
+          <span class="marquee__item marquee__item--accent">CBSE AI curriculum</span>
+          <span class="marquee__item">Tax filing prep</span>
+          <span class="marquee__item">Lead qualification</span>
+          <span class="marquee__item marquee__item--accent">Order reconciliation</span>
+          <span class="marquee__item">Vendor onboarding</span>
+          <span class="marquee__item">Escalations triage</span>
+          <span class="marquee__item marquee__item--accent">Refund automation</span>
+          <span class="marquee__item">Salary &amp; payroll AI</span>
+          <span class="marquee__item">Hiring shortlists</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRACTICE ============ -->
     <section class="practice" id="work">
       <div class="practice__inner">
         <div class="practice__left reveal">
           <p class="eyebrow">Practice</p>
           <h2 class="practice__headline">Four problems.<br />One firm.</h2>
+          <p class="practice__lede">
+            Most agencies pick one slice. We staff your operation end-to-end &mdash; from finding the leak to running the fix to documenting the recovery.
+          </p>
         </div>
         <div class="practice__right">
           <div class="service reveal">
             <p class="service__num">01</p>
             <h3 class="service__name">AI Staffing</h3>
-            <p class="service__desc">Trained agents deployed into your operations — billed monthly, not per seat.</p>
+            <p class="service__desc">Trained agents deployed into your operations &mdash; billed monthly, not per seat. 5-agent bundles from &#8377;52K.</p>
           </div>
           <div class="service reveal">
             <p class="service__num">02</p>
             <h3 class="service__name">Data &amp; Analytics</h3>
-            <p class="service__desc">Find the leak. Quantify the bleed. Hand back the exact number you were losing.</p>
+            <p class="service__desc">Find the leak. Quantify the bleed. Hand back the exact rupee number you were losing &mdash; in two hours, free.</p>
           </div>
           <div class="service reveal">
             <p class="service__num">03</p>
             <h3 class="service__name">Automation</h3>
-            <p class="service__desc">Operations that run themselves — orders, reconciliations, follow-ups, escalations.</p>
+            <p class="service__desc">Operations that run themselves &mdash; orders, reconciliations, follow-ups, escalations. 24/7. No festival leave.</p>
           </div>
           <div class="service reveal">
             <p class="service__num">04</p>
             <h3 class="service__name">Strategic Consultancy</h3>
-            <p class="service__desc">Quiet, sharp guidance. Where AI earns its keep — and where it shouldn't be near.</p>
+            <p class="service__desc">Quiet, sharp guidance. Where AI earns its keep &mdash; and where it shouldn&rsquo;t be near.</p>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- ============ VERTICALS ============ -->
+    <section class="verticals" id="verticals">
+      <div class="verticals__inner">
+        <div class="verticals__head reveal">
+          <p class="eyebrow">Verticals</p>
+          <h2 class="verticals__headline">Built for the businesses<br />the Big 4 won&rsquo;t touch.</h2>
+          <p class="verticals__lede">
+            Big 4 minimum engagement: &#8377;25L. 99% of Indian SMBs are structurally excluded. We start at &#8377;3.5L &mdash; with skin in the game.
+          </p>
+        </div>
+
+        <div class="verticals__grid">
+          <a class="vertical tilt reveal" href="#contact">
+            <div class="tilt__inner">
+              <span class="tilt__glare" aria-hidden="true"></span>
+              <p class="vertical__tag">#1 priority</p>
+              <h3 class="vertical__title">CBSE Private Schools</h3>
+              <p class="vertical__copy">Fee collection AI, WhatsApp parent agent, CBSE AI compliance package. Built for the October 2025 mandate.</p>
+              <p class="vertical__meta">&#8377;7.5L deals &middot; 4&ndash;6 wk cycle</p>
+            </div>
+          </a>
+
+          <a class="vertical tilt reveal" href="#contact">
+            <div class="tilt__inner">
+              <span class="tilt__glare" aria-hidden="true"></span>
+              <p class="vertical__tag">Q2 focus</p>
+              <h3 class="vertical__title">D2C &amp; Retail Brands</h3>
+              <p class="vertical__copy">Inventory forecasting, dormant customer recovery, refund automation, ad-spend triage. &#8377;2&ndash;15Cr brands.</p>
+              <p class="vertical__meta">&#8377;5&ndash;8L deals &middot; 6&ndash;8 wk cycle</p>
+            </div>
+          </a>
+
+          <a class="vertical tilt reveal" href="#contact">
+            <div class="tilt__inner">
+              <span class="tilt__glare" aria-hidden="true"></span>
+              <p class="vertical__tag">Q2 focus</p>
+              <h3 class="vertical__title">CA, Law &amp; Recruiting</h3>
+              <p class="vertical__copy">Proposal AI, billing recovery, document drafting, candidate shortlists. 10&ndash;60 staff professional firms, Pan-India.</p>
+              <p class="vertical__meta">&#8377;3&ndash;6L deals &middot; 4&ndash;6 wk cycle</p>
+            </div>
+          </a>
+
+          <a class="vertical tilt reveal" href="#contact">
+            <div class="tilt__inner">
+              <span class="tilt__glare" aria-hidden="true"></span>
+              <p class="vertical__tag">Q3 focus</p>
+              <h3 class="vertical__title">Healthcare Clinics</h3>
+              <p class="vertical__copy">Appointment AI, billing reconciliation, insurance follow-up, no-show recovery. 2&ndash;20 doctor practices.</p>
+              <p class="vertical__meta">&#8377;2&ndash;4L deals &middot; 4&ndash;6 wk cycle</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ APPROACH ============ -->
     <section class="approach" id="approach">
       <div class="approach__inner">
         <p class="eyebrow eyebrow--saffron">Methodology</p>
+        <h2 class="approach__headline reveal">The dark data audit.<br />Then the work.</h2>
         <div class="approach__grid">
           <div class="step reveal">
             <p class="step__num">01</p>
-            <h3 class="step__title">The dark data audit</h3>
-            <p class="step__body">We find the leak before we sell the fix. Free, two hours, exact numbers.</p>
+            <h3 class="step__title">Find the leak</h3>
+            <p class="step__body">A free, two-hour audit of your operations. We surface the exact &#8377; bleeding from your P&amp;L &mdash; average finding: &#8377;5&ndash;15L of hidden value per business.</p>
           </div>
           <div class="step reveal">
             <p class="step__num">02</p>
             <h3 class="step__title">Deploy AI workers</h3>
-            <p class="step__body">Trained agents go into your operations at ₹3–12K/month per role.</p>
+            <p class="step__body">Trained agents go into operations at &#8377;3&ndash;12K/month per role &mdash; 60&ndash;80% cheaper than humans, 24/7, no festival leave. Live in 30 days.</p>
           </div>
           <div class="step reveal">
             <p class="step__num">03</p>
-            <h3 class="step__title">Recover, document, repeat</h3>
-            <p class="step__body">We charge 15% of documented savings. Zero result, zero recovery fee.</p>
+            <h3 class="step__title">Recover &amp; document</h3>
+            <p class="step__body">We charge 15% of documented savings. Zero result, zero recovery fee. The only Indian AI firm that co-invests in your outcome.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="proof">
+    <!-- ============ CONSTELLATION + PROOF ============ -->
+    <section class="proof" id="proof">
       <div class="proof__inner">
+        <div class="proof__copy reveal">
+          <p class="eyebrow">By the numbers</p>
+          <h2 class="proof__headline">Eighty-eight AI employees.<br />Eighteen clients. One year.</h2>
+          <p class="proof__lede">
+            Our Year-1 commitment. Every figure is tied to a specific signed engagement and quarterly delivery target &mdash; no vanity metrics.
+          </p>
+        </div>
+        <div class="proof__viz">
+          <canvas id="constellation" aria-label="Constellation of 88 deployed AI agents"></canvas>
+        </div>
+      </div>
+
+      <div class="stats">
         <div class="stat reveal">
-          <p class="stat__num">₹84L</p>
+          <p class="stat__num">
+            <span class="counter" data-target="84" data-prefix="₹" data-suffix="L">₹0L</span>
+          </p>
           <span class="stat__rule" aria-hidden="true"></span>
-          <p class="stat__label">Year 1 revenue target</p>
+          <p class="stat__label">Year-1 revenue target</p>
         </div>
         <div class="stat reveal">
-          <p class="stat__num">88</p>
+          <p class="stat__num">
+            <span class="counter" data-target="88">0</span>
+          </p>
           <span class="stat__rule" aria-hidden="true"></span>
           <p class="stat__label">AI employees deployed</p>
         </div>
         <div class="stat reveal">
-          <p class="stat__num">18</p>
+          <p class="stat__num">
+            <span class="counter" data-target="18">0</span>
+          </p>
           <span class="stat__rule" aria-hidden="true"></span>
           <p class="stat__label">Clients by Dec 2026</p>
         </div>
         <div class="stat reveal">
-          <p class="stat__num">22 days</p>
+          <p class="stat__num">
+            <span class="counter" data-target="22" data-suffix=" days">0 days</span>
+          </p>
           <span class="stat__rule" aria-hidden="true"></span>
           <p class="stat__label">CAC payback</p>
         </div>
       </div>
     </section>
 
+    <!-- ============ FOUNDERS ============ -->
+    <section class="founders">
+      <div class="founders__inner">
+        <p class="eyebrow eyebrow--saffron">Founders</p>
+        <h2 class="founders__headline reveal">Built in Bengaluru,<br />by operators who&rsquo;ve shipped.</h2>
+
+        <div class="founders__grid">
+          <div class="founder reveal">
+            <p class="founder__name">Soumith</p>
+            <p class="founder__role">CEO</p>
+            <p class="founder__body">Runs the GTM and the dark data audit practice. Talks to every founder before they sign.</p>
+          </div>
+          <div class="founder reveal">
+            <p class="founder__name">Vivaan</p>
+            <p class="founder__role">CTO</p>
+            <p class="founder__body">Owns the agent library, multi-LLM architecture, and per-vertical deployment templates.</p>
+          </div>
+          <div class="founder reveal">
+            <p class="founder__name">The firm</p>
+            <p class="founder__role">Bengaluru, 2026</p>
+            <p class="founder__body">DPIIT-recognised. Karnataka ELEVATE NxT applicant. Section 80-IAC tax-exempt eligible.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FOOTER CTA ============ -->
     <footer class="footer" id="contact">
       <div class="footer__inner">
         <h2 class="footer__cta reveal">Let&rsquo;s find your<br />bleeding number.</h2>
+        <p class="footer__sub reveal">Free, two-hour audit. We bring the exact &#8377; figure to the first meeting.</p>
         <a class="footer__email reveal" href="mailto:hello@solvan.ai">hello@solvan.ai</a>
         <div class="footer__strip">
           <span>&copy; 2026 Solvan AI</span>
           <span>Bengaluru &middot; India</span>
+          <span>DPIIT recognised</span>
         </div>
       </div>
     </footer>
